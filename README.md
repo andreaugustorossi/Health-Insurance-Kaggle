@@ -1,3 +1,3 @@
-# Helath Insurance Cross Sell
+# Health Insurance Cross Sell
 
 ![](img/insurance)
