@@ -139,3 +139,12 @@ Both steps do not return any improvements, so it was decided to go with all feat
 
 - gender and vehicle age -> label enconding
 - vehicle_age - ordinal enconding
+
+<br>
+
+### Machine Learning and Cross Validation
+
+Several algorithms were tested:
+
+![](img/ml.png)
+
