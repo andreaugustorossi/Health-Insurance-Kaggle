@@ -157,7 +157,7 @@ Several algorithms were tested, but from all of them just LGBM, Hist Gradient Bo
 
 <br>
 
-### Hyperparameter Optimization
+### Hyperparameter Optimization - Test Dataset
 
 Unfortunately, Hyperparameter Optimization has not returned any improvements on the test dataset:
 
