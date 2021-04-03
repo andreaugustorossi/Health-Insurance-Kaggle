@@ -30,7 +30,7 @@ As a result of the project, it is needed to deliver a report containing some ana
 
 ## The Solution
 
-The solution offered is a machine learning algorithm that can rank customers by the highest probability of accepting a new car insurance. In this project, several machine learning models were tested, and the best was chosen and LGBM was chosen as the best algorithm.  
+The solution offered is a machine learning algorithm that can rank customers by the highest probability of accepting a new car insurance. To achieve this goal, a cyclic model called CRISP-DS (Cross Industry Process for Data Science) was used. Several machine learning models were tested, and LGBM was chosen as the best algorithm.  
 
 Not only were all the questions answered, but a Google spreadsheet was offered with a button that just clicking on it will give the probabilities of each customer on the spreadsheet. 
 
@@ -57,3 +57,53 @@ The dataset is composed by the following variables:
 - Annual Premium: How much the customer paid the company for annual health insurance
 - Vintage: Number of days the customer joined the company through the purchase of health insurance.
 - Response: The customer has interest in buy the car insurance, no: 0, yes: 1
+
+<br>
+
+#### Keys points:
+
+According to the **Pandas Profile Report** the following key points can be highlighted:
+
+- The data set has no missing cells or duplicate rows
+- There are more men (54.1%) than women (45.9%)
+- The age ranges from 20 to 85 years. The average age is 38 years and the distribution is positively skewed (0.67). There is a peak at the ages of 23 and 24, both representing 13.2% of all ages
+- The most common region code is 28, representing 27.9% of all 53 codes
+- The most common policy sales channel are 152 (35.4%), 26 (20.9%) and 124 (19.4%)
+- Most customers have a driver's license (99.8%)
+- Most vehicles are between 1 and 2 years old (52.6%), followed by vehicles under 1 year old (43.2%) and over 2 years old (4.2%)
+- Most vehicles were damaged (50.5%)
+- Most customers have already been assured (54.2%)
+- The average of annual premium is 30564, in addition to a minimum of 2630 and a maximum of 540165. The distribution is highly skewed (1.76) and has a kurtosis of 34, which implies that there are many outliers and data is concentrated at the beginning of the curve
+- The target variable (response) is quite unbalanced, since 87.7% of customers answered "no" to a new auto insurance proposal
+
+### Mind Map
+
+![](img/mind_map.jpg)
+
+<br>
+
+### Feature Engineering
+
+Based on the mind map and pandas profile report the following features were developed:
+
+- age_damage
+- vintage_annual_premium
+- age_vintage
+- age_damage_premium
+
+<br>
+
+#### Hypothesis Test - Insight Generation:
+Based on the previous analisys, six hypothesis were made and answered:
+
+##### H1 - Older customers are more likely to take out a car insurance 
+- False - People between 40 and 50 are more likely to take out a car insurance
+##### H2 - Women are more likely to take out a car insurance
+
+##### H3 - Customers with older cars are more likely to take out a car insurance
+
+##### H4 - Customers previously insured are more likely to take out a car insurance
+
+##### H5 - Customers with previously damaged cars are more likely to take out a car insurance
+##### H6 - Customers with higher annual premium are more likely to take out a car insurance
+
