@@ -34,7 +34,7 @@ The solution offered is a machine learning algorithm that can rank customers by 
 
 Not only were all the questions answered, but a Google spreadsheet was offered with a button that just clicking on it will give the probabilities of each customer on the spreadsheet. 
 
-<img src="/img/spreadsheet.gif">
+<img src="/img/spreadsheet.gif" width="1000" height="260"/>
 
 <br>
 
