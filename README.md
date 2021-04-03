@@ -34,7 +34,7 @@ The solution offered is a machine learning algorithm that can rank customers by 
 
 Not only were all the questions answered, but a Google spreadsheet was offered with a button that just clicking on it will give the probabilities of each customer on the spreadsheet. 
 
-<img src="/img/spreadsheet.gif">
+<img src="/img/spreadsheet.gif" width="1000" height="260"/>
 
 <br>
 
@@ -157,29 +157,35 @@ Several algorithms were tested, but from all of them just LGBM, Hist Gradient Bo
 
 <br>
 
-### Hyperparameter Optimization
+### Hyperparameter Optimization - Test Dataset
 
 Unfortunately, Hyperparameter Optimization has not returned any improvements on the test dataset:
 
 #### HGB
 Tuned
+
 ![](img/hgbtuned.png)
 
 Default
+
 ![](img/hgbdefault.png)
 
 #### LGBM
 Tuned
+
 ![](img/lgbmtuned.png)
 
 Default
+
 ![](img/lgbmdefault.png)
 
 #### XGB
 Tuned
+
 ![](img/xgbtuned.png)
 
 Default
+
 ![](img/xgbdefault.png)
 
 #### LGBM was chosen as the best ML model overall:
