@@ -76,6 +76,8 @@ According to the **Pandas Profile Report** the following key points can be highl
 - The average of annual premium is 30564, in addition to a minimum of 2630 and a maximum of 540165. The distribution is highly skewed (1.76) and has a kurtosis of 34, which implies that there are many outliers and data is concentrated at the beginning of the curve
 - The target variable (response) is quite unbalanced, since 87.7% of customers answered "no" to a new auto insurance proposal
 
+<br>
+
 ### Mind Map
 
 ![](img/mind_map.jpg)
@@ -103,28 +105,21 @@ Based on the previous analysis, six hypotheses were made and answered:
 
 ##### H2 - Women are more likely to take out a car insurance
 - False - Women are not more likely to take out a car insurance
-
 ![](img/h2.png)
-
 ##### H3 - Customers with older cars are more likely to take out a car insurance
 - False - Customers with cars between 1 and 2 years are more likely to take out a car insurance
-
 ![](img/h3.png)
-
 ##### H4 - Customers previously insured are more likely to take out a car insurance
 - True - Customers previously insured are more likely to take out a car insurance
-
 ![](img/h4.png)
-
 ##### H5 - Customers with previously damaged cars are more likely to take out a car insurance
 - True - Customers with previously damaged cars are more likely to take out a car insurance
-
 ![](img/h5.png)
-
 ##### H6 - Customers with higher annual premium are more likely to take out a car insurance
 - False - Customers with lower annual premium are more likely to take out a car insurance
-
 ![](img/h6.png)
+
+<br>
 
 ### Multivariate Analisys
 
@@ -135,6 +130,8 @@ Based on the previous analysis, six hypotheses were made and answered:
 #### Cramer's V (Pandas Profiling)
 
 ![](img/cramer.png)
+
+<br>
 
 ### Data Preparation and Feature Selection
 
