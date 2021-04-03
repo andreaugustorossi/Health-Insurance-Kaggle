@@ -163,23 +163,29 @@ Unfortunately, Hyperparameter Optimization has not returned any improvements on 
 
 #### HGB
 Tuned
+
 ![](img/hgbtuned.png)
 
 Default
+
 ![](img/hgbdefault.png)
 
 #### LGBM
 Tuned
+
 ![](img/lgbmtuned.png)
 
 Default
+
 ![](img/lgbmdefault.png)
 
 #### XGB
 Tuned
+
 ![](img/xgbtuned.png)
 
 Default
+
 ![](img/xgbdefault.png)
 
 #### LGBM was chosen as the best ML model overall:
