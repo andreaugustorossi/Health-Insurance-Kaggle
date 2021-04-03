@@ -98,24 +98,24 @@ Based on the mind map and pandas profile report the following features were deve
 ### Hypothesis Test - Insight Generation:
 Based on the previous analysis, six hypotheses were made and answered:
 
-##### H1 - Older customers are more likely to take out a car insurance 
+#### H1 - Older customers are more likely to take out a car insurance 
 - False - People between 40 and 50 are more likely to take out a car insurance
 
 ![](img/h1.png)
 
-##### H2 - Women are more likely to take out a car insurance
+#### H2 - Women are more likely to take out a car insurance
 - False - Women are not more likely to take out a car insurance
 ![](img/h2.png)
-##### H3 - Customers with older cars are more likely to take out a car insurance
+#### H3 - Customers with older cars are more likely to take out a car insurance
 - False - Customers with cars between 1 and 2 years are more likely to take out a car insurance
 ![](img/h3.png)
-##### H4 - Customers previously insured are more likely to take out a car insurance
+#### H4 - Customers previously insured are more likely to take out a car insurance
 - True - Customers previously insured are more likely to take out a car insurance
 ![](img/h4.png)
-##### H5 - Customers with previously damaged cars are more likely to take out a car insurance
+#### H5 - Customers with previously damaged cars are more likely to take out a car insurance
 - True - Customers with previously damaged cars are more likely to take out a car insurance
 ![](img/h5.png)
-##### H6 - Customers with higher annual premium are more likely to take out a car insurance
+#### H6 - Customers with higher annual premium are more likely to take out a car insurance
 - False - Customers with lower annual premium are more likely to take out a car insurance
 ![](img/h6.png)
 
