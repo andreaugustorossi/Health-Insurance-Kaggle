@@ -135,7 +135,7 @@ Based on the previous analysis, six hypotheses were made and answered:
 
 ### Data Preparation and Feature Selection
 
-Both steps do not return any improvements, so it was decided to go with all features just encoding categorical features:
+Both steps has not returned any improvements, so it was decided to go with all features just encoding categorical features:
 
 - gender and vehicle age -> label enconding
 - vehicle_age - ordinal enconding
@@ -144,7 +144,63 @@ Both steps do not return any improvements, so it was decided to go with all feat
 
 ### Machine Learning and Cross Validation
 
-Several algorithms were tested:
+Several algorithms were tested, but from all of them just LGBM, Hist Gradient Boosting (HGB) and XGBoost were chosen as the best models.
 
-![](img/ml.png)
+#### LGBM
+![](img/lgbm.png)
 
+#### HGB
+![](img/hgb.png)
+
+#### XGB
+![](img/xgb.png)
+
+<br>
+
+### Hyperparameter Optimization
+
+Unfortunately, Hyperparameter Optimization has not returned any improvements on the test dataset:
+
+#### HGB
+Tuned
+![](img/hgbtuned.png)
+
+Default
+![](img/hgbdefault.png)
+
+#### LGBM
+Tuned
+![](img/lgbmtuned.png)
+
+Default
+![](img/lgbmdefault.png)
+
+#### XGB
+Tuned
+![](img/xgbtuned.png)
+
+Default
+![](img/xgbdefault.png)
+
+#### LGBM was chosen as the best ML model overall:
+![](img/lgbmover.png)
+
+<br>
+
+### Business Questions Answers
+
+#### 1 - The most relevant attributes of customers interested in purchasing auto insurance.
+
+- Age (Customers around 40 and 50 years old)
+- Vehicle Age (Customers with cars between 1 and 2 years)
+- Customers Previously Insured
+- Customers with Previously Damaged Car
+
+#### 2 - What percentage of customers interested in purchasing auto insurance will the sales team be able to contact by making 20,000 calls?
+![](img/quest2.png)
+
+#### 3 - If the sales team's capacity increases to 40,000 calls, what percentage of customers interested in purchasing auto insurance will the sales team be able to contact?
+![](img/quest3.png)
+
+#### 4 - How many calls does the sales team need to make to contact 80% of customers interested in purchasing auto insurance?
+![](img/quest4.png)
