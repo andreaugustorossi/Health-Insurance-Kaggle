@@ -44,7 +44,6 @@ Not only were all the questions answered, but a Google spreadsheet was offered w
 
 The dataset is composed by the following variables:
 
-
 - Id: Customer ID
 - Gender: Customer Gender
 - Customer Age: Customer Age
@@ -57,8 +56,6 @@ The dataset is composed by the following variables:
 - Annual Premium: How much the customer paid the company for annual health insurance
 - Vintage: Number of days the customer joined the company through the purchase of health insurance.
 - Response: The customer has interest in buy the car insurance, no: 0, yes: 1
-
-<br>
 
 #### Keys points:
 
@@ -100,9 +97,7 @@ Based on the previous analysis, six hypotheses were made and answered:
 
 #### H1 - Older customers are more likely to take out a car insurance 
 - False - People between 40 and 50 are more likely to take out a car insurance
-
 ![](img/h1.png)
-
 #### H2 - Women are more likely to take out a car insurance
 - False - Women are not more likely to take out a car insurance
 ![](img/h2.png)
