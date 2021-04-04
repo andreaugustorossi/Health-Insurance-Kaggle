@@ -86,7 +86,7 @@ According to the **Pandas Profile Report** the following key points can be highl
 
 ### Feature Engineering
 
-Based on the mind map and pandas profile report the following features were developed:
+Based on the mind map and pandas profile report the following new features were developed combining the previous ones:
 
 - age_damage
 - vintage_annual_premium
